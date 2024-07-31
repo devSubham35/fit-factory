@@ -2,16 +2,10 @@ import React, { useState, useEffect } from 'react';
 import img_01 from '../../assets/gallery/img_01.webp';
 import img_02 from '../../assets/gallery/img_02.webp';
 import img_03 from '../../assets/gallery/img_03.webp';
-import img_04 from '../../assets/gallery/img_04.webp';
-import img_05 from '../../assets/gallery/img_05.webp';
-import img_06 from '../../assets/gallery/img_06.webp';
-import img_07 from '../../assets/gallery/img_07.webp';
-import img_08 from '../../assets/gallery/img_08.webp';
+import grid_img_01 from "../../assets/Gallery_grid/Grid_img_01.webp"
+import grid_img_02 from "../../assets/Gallery_grid/Grid_img_02.webp"
+import grid_img_03 from "../../assets/Gallery_grid/Grid_img_03.webp"
 import { IoMdClose } from "react-icons/io";
-import grid_img_01 from "../../assets/Gallery_grid/Grid_img_01.jpg"
-import grid_img_02 from "../../assets/Gallery_grid/Grid_img_02.jpg"
-import grid_img_03 from "../../assets/Gallery_grid/Grid_img_03.jpg"
-import PaddingWrapper from '../Common/PaddingWrapper';
 
 
 const images_01 = [img_01, img_02, img_03];
@@ -128,7 +122,7 @@ const AboutUsSection = () => {
               >
                 <IoMdClose className='text-[22px]' />
               </button>
-              <img src={selectedImage} alt="Selected" className="w-[70%] h-full" />
+              <img src={selectedImage} alt="Selected" className="md:w-[70%] h-full object-contain md:object-none" />
             </div>
           </div>
         )}

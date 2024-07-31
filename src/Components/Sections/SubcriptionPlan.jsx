@@ -4,7 +4,7 @@ import PaddingWrapper from '../Common/PaddingWrapper';
 
 const PlanCard = ({ title, price, features }) => (
   <div className="w-full py-7 xl:py-10 flex flex-col items-center justify-between border p-6 rounded-xl shadow-xl
-   bg-white hover:shadow-2xl transform transition-transform duration-300 hover:scale-105">
+   bg-white hover:shadow-2xl transform transition-transform duration-300 md:hover:scale-105">
     <div className='flex flex-col justify-center items-center'>
         <h3 className='font-[PoppinsBold] text-[22px] xl:text-[32px] mb-2 text-gray-900'>{title}</h3>
         <p className='text-[18px] font-[PoppinsRegular] mb-4 text-gray-700'>₹{price}/month</p>
@@ -57,7 +57,7 @@ const SubscriptionPlan = () => {
       <PaddingWrapper>
         <div className="w-full py-4 xl:py-20 bg-white text-black flex flex-col items-center relative">
         <h2 className="font-[PoppinsBold] text-center md:text-start text-[30px] md:text-[3rem] mb-3 md:mb-8">Our <span className='text-orange-600'>Subcription </span> Plan</h2>
-        <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-2 md:gap-4 xl:gap-8">
+        <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-4 xl:gap-8">
             {plans.map((plan, index) => (
               <PlanCard key={index} {...plan} />
             ))}

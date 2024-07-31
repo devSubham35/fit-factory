@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero_img from "../../assets/Hero_image.png";
+import Hero_img from "../../assets/Hero_image.webp";
 import PaddingWrapper from '../Common/PaddingWrapper';
 
 
