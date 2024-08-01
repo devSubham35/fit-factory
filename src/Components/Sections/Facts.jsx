@@ -15,6 +15,7 @@ const Facts = () => {
 
     return (
         <PaddingWrapper>
+            <h2 className='font-[PoppinsBold] text-[35px] md:text-[3rem] mb-5 text-orange-600 text-center'>Gym <span className='text-white'>Facts</span></h2>
             <div className="w-full h-[32vh] sm:h-[50vh] md:h-[80vh] md:py-10 xl:py-20 flex items-center justify-center">
                 <div className="w-full h-full flex gap-4 mask-gradient-top mask-gradient-bottom">
                     {facts.map((fact) => (
@@ -37,7 +38,7 @@ const Facts = () => {
                             >
                                 <h3 className="text-white text-[12px] md:text-xl font-[PoppinsMedium] mb-1 md:mb-2">#random facts</h3>
                                 <p className={`z-50 duration-700 text-white mb-4 md:mb-6 text-[12px] sm:text-[17px] md:text-[30px] xl:text-[35px] 2xl:text-[40px] 2xl:leading-[70px] font-semibold
-                                ${expandedId === fact?.id? "translate-y-0 opacity-100" : "translate-y-0 opacity-0" }`}>
+                                ${expandedId === fact?.id ? "translate-y-0 opacity-100" : "translate-y-0 opacity-0"}`}>
                                     {fact.content}
                                 </p>
                             </div>

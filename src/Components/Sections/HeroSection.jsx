@@ -10,7 +10,7 @@ const HeroSection = () => {
             style={{ backgroundImage: `url(${Hero_img})` }}
         >
             <PaddingWrapper>
-                <div className='w-full py-10 xl:py-0'>
+                <div className='w-full py-8 xl:py-0'>
                     <h1 className='font-[PoppinsBold] text-[1.4rem] md:text-[4.5rem] xl::text-[5.5rem] mb-1.5 md:mb-4'>Unleash <br  className='hidden sm:block lg:hidden'/> your <br />Inner Athlete</h1>
                     <h1 className='font-[PoppinsMedium] text-[9px] md:text-[1rem] xl:text-[1.5rem] mb-1.5 md:mb-4 text-orange-600'>Transform | Energize | Achieve</h1>
                     <p className='w-[60%] md:w-1/2 text-[8px] md:text-[16px] xl:text-[18px] font-[PoppinsRegular] mb-4 md:mb-10'>

@@ -21,8 +21,8 @@ const services = [
 
 const ServiceSection = () => {
     return (
-        <div className="w-full py-8 lg:py-20 bg-black text-white flex flex-col items-center">
-            <h2 className='font-[PoppinsBold] text-[35px] md:text-[3rem] mb-14'>Our <span className='text-orange-600'>Services</span></h2>
+        <div id="services" className="w-full py-8 lg:py-20 bg-black text-white flex flex-col items-center">
+            <h2 className='font-[PoppinsBold] text-[35px] md:text-[3rem] mb-7 md:mb-14'>Our <span className='text-orange-600'>Services</span></h2>
             <div className="w-[80%] flex flex-col md:flex-row justify-between">
                 {services.map((service, index) => (
                     <div key={index} className="w-full md:w-1/3 mb-8 md:mb-0 md:mr-4 flex flex-col items-center last:mr-0">

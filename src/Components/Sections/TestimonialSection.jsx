@@ -18,7 +18,7 @@ const TestimonialSection = () => {
     ];
 
     return (
-        <div className="w-full py-8 xl:py-20 bg-gray-100 text-black flex flex-col items-center">
+        <div id="testimonials" className="w-full py-8 xl:py-20 bg-gray-100 text-black flex flex-col items-center">
             <PaddingWrapper>
                 <h2 className="font-[PoppinsBold] text-center md:text-start text-[28px] md:text-[3rem] mb-3 md:mb-8">What Our <span className='text-orange-600'>Members </span> Say</h2>
 

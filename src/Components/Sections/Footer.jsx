@@ -4,7 +4,7 @@ import PaddingWrapper from '../Common/PaddingWrapper'
 const Footer = () => {
     return (
         <PaddingWrapper>
-            <div className="w-full py-10 bg-black text-white">
+            <div id="footer" className="w-full py-10 bg-black text-white">
                 <div className="flex flex-col md:flex-row justify-between items-center">
                     <div className="text-center md:text-left mb-4 md:mb-0 text-[#dedede]">
                         <h3 className='font-[PoppinsBold] text-[20px] md:text-[22px] xl:text-[30px] mb-2 text-white'>Our Gym</h3>
